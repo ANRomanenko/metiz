@@ -97,3 +97,20 @@ print(countries)
 countries.sort(reverse=True)
 print("\nСортировка списка в обратно алфавитном порядке - порядок элементов изменился")
 print(countries)
+print()
+
+# Упражнения (3.10) Все функции:
+cities = ['kiev', 'sevillia', 'madrid', 'roma', 'lisabon'] # Список городов
+print("Оригинальный список городов!")
+print(cities)
+
+cities = ['kiev', 'sevillia', 'madrid', 'roma', 'lisabon'] # Список городов
+print(sorted(cities))
+cities.sort(reverse=True)
+print(cities)
+cities.reverse()
+print(cities)
+cities.reverse()
+print(cities)
+print(f"Вытянем из списка городов первый город: {cities[0].title()}")
+print(f"Вытянем из списка городов последний город: {cities[-1].title()}")
